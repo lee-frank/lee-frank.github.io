@@ -1,0 +1,249 @@
+//Colors -------------------------------
+$bright-red: #E63946;
+$light-red:#ffcdd2;
+$light-green: #F1FAEE;
+$teal-blue:#A8DADC;
+$blue:#2196f3;
+$pattern:#0048c4;
+$profile-blue:#0487CC;
+
+$dark-blue:#1D3557;
+$orange:#e74c3c;
+$dark-yellow:#FFC914;
+
+//Greys
+$dark-grey:#464646;
+$med-grey:#616161;
+$med-light-grey:#a4a5a6;
+$dark-blue-grey:#50626C;
+$light-black:#555c70;
+$side-black:#191818;
+
+$background-color-grey:#eae8e7;
+$background-color-grey2:#f5f5f5;
+
+//Basic
+$white:#FFFFFF;
+$black:#000000;
+
+//in line text color tags
+.black-text {color:$black;}
+.white-text {color:$white;}
+.orange-text {color:$orange;}
+.red-text {color: $light-red;}
+.blue-text {color: $blue;}
+.lgrey-text {color:$med-light-grey;}
+
+//Universal
+.row .col {
+ padding-left:0px;
+ padding-right:0px;
+}
+
+.container .row {
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.container {
+  width:85%;
+}
+
+.padding-wrap {
+  //Top right bottom left
+  padding:10px 40px 20px 40px;
+}
+
+.bio-padding {
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+.translucent{
+  opacity:.7;
+}
+
+//body
+body {
+  background-color:$background-color-grey2;
+  background-image: url("/images/rough-diagonal.png");
+}
+
+//Main
+.left-profile {
+  display: block;
+  background-color:$profile-blue;
+  background-position:center;
+  background-size:cover;
+  min-height:600px;
+  color:#fff;
+}
+
+//Background image style
+.profile-pic {
+  display: block;
+  background-image: url("/images/profile_pic2_resize.jpg");
+  background-position:center;
+  background-size:cover;
+  min-height:675px;
+  color:#FFFFFF;
+}
+
+//Round style img tag
+img.profile-round {
+    display: block;
+    max-width:70%;
+    max-height:70%;
+    border-radius:50%;
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.25);
+    margin:0 auto;
+}
+
+//Square style img tag
+img.profile-square {
+    display: block;
+    max-width:100%;
+    max-height:200px;
+    background-position:center;
+    margin:0 auto;
+}
+
+.header {
+  background-image: url("/images/HNCK5096_dark.jpg");
+  background-size:cover;
+  min-height:615px;
+  background-repeat: no-repeat;
+  color:#FFFFFF;
+  margin-bottom:-500px;
+}
+
+//Nav
+.collection {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  opacity:.7;
+  margin-top:0px;
+}
+
+.collection .collection-item {
+  background-color:$profile-blue;
+  margin-left:20px;
+  margin-right:20px;
+  padding:15px;
+}
+
+.collection a.collection-item {
+  color:$white;
+}
+
+//Blockquotes
+blockquote {
+  background-color: $background-color-grey2;
+  border-color:$blue;
+}
+
+//Graphics
+.border-text {
+    border: 2px solid $white;
+}
+
+.quote {
+  font-family: 'Coustard', serif;
+  font-size:29px;
+  color:$black
+}
+
+// Footer
+
+footer.page-footer {
+  background-color: $blue;
+}
+
+.left-border-blue {
+    border-left: 10px solid $blue;
+    padding-left: 6px;
+}
+
+.left-border-red {
+    border-left: 10px solid $bright-red;
+    padding-left: 6px;
+}
+
+//FONTS ------------------------------------
+// Profile header text
+.name-text {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color:$black;
+   font-size:55px;
+   line-height:normal;
+}
+
+.job-text {
+  font-family:"Roboto Condensed";
+  font-weight: 800;
+  font-style: normal;
+  color:$med-grey;
+  font-size:30px;
+  line-height:normal;
+}
+
+// fonts
+h1, h2, h3, h4, h5 {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $black;
+   line-height:normal;
+}
+
+.header-text {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $black;
+   font-size:18px;
+   line-height:normal;
+}
+
+p {
+  font-size:16px;
+	color: $dark-grey;
+	line-height:29px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.p-span {
+  font-size:16px;
+  color: $med-grey;
+  line-height:29px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.p-bold {
+  font-family:'Raleway';
+  font-weight: 800;
+  font-style: normal;
+  color: $black;
+  font-size:14px;
+}
+
+// lists
+.fa-ul {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $dark-grey;
+  font-size:17px;
+  line-height:inherit;
+}
+
+.fa-circle {
+  color:$blue;
+}
